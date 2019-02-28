@@ -18,10 +18,10 @@ https://docs.google.com/document/d/1w9YYn8WCq4GKGZzhZkr64RZ4e1I4o14hsXDYAUgKp1I/
   And add "index.js" files to each of them. 
   Additionally, add <component-name>.css files to each folder and import them into the respective index files
   ex. leftComponent.css
-3. Import all three components into the "App.js" file and place them in between the <div> tags. Add a className
-  of "app" to the <div> and flex/grid these components so you have three even columns
-4. In the LeftComponent folder "index.js" file, create a parent <div className="left"> with two child divs
-  <div className="left-top"> and <div className="left-bottom">. Use the LeftComponent.css file to create 
+3. Import all three components into the "App.js" file and place them in between the `<div>` tags. Add a className
+  of "app" to the `<div>` and flex/grid these components so you have three even columns
+4. In the LeftComponent folder "index.js" file, create a parent `<div className="left">` with two child divs
+  `<div className="left-top">` and `<div className="left-bottom">`. Use the LeftComponent.css file to create 
   two equal rows. Give the top row an orange border and the bottom row a red border. 
 5. Do the same thing for MiddleComponent except make the rows match up with the image in the link above.
   For example, 10 and 90%. Give these purple and blue borders.
