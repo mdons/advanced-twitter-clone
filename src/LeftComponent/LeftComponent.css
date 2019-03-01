@@ -1,0 +1,11 @@
+.left-top {
+  border-color: orange;
+  border-style: solid;
+  height: 45vh;
+}
+
+.left-bottom {
+  border-color: red;
+  border-style: solid;
+  height: 45vh;
+}

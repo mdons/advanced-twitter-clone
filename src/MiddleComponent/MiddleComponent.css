@@ -1,0 +1,11 @@
+.middle-top {
+  border-color: purple;
+  border-style: solid;
+  height: 9vh;
+}
+
+.middle-bottom {
+  border-color: blue;
+  border-style: solid;
+  height: 81vh;
+}

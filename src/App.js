@@ -1,12 +1,22 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import RightComponent from "./RightComponent";
+import MiddleComponent from "./MiddleComponent";
+import LeftComponent from "./LeftComponent";
+import NavComponent from "./NavComponent";
 
-function App(){
-   return (
-    <div>
-
-    </div>
-  );
- }
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <NavComponent />
+        <div className="body">
+          <LeftComponent />
+          <MiddleComponent />
+          <RightComponent />
+        </div>
+      </div>
+    );
+  }
+}
 export default App;
