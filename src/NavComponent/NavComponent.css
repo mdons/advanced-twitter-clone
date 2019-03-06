@@ -1,6 +1,5 @@
 .nav {
-  border-color: black;
-  border-style: solid;
+  border: black, solid, 1px;
   height: 10vh;
   width: 100%;
 }

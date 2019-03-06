@@ -1,11 +1,9 @@
 .middle-top {
-  border-color: purple;
-  border-style: solid;
+  border: purple, solid, 1px;
   height: 9vh;
 }
 
 .middle-bottom {
-  border-color: blue;
-  border-style: solid;
+  border: blue, solid, 1px;
   height: 81vh;
 }

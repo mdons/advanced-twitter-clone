@@ -1,11 +1,9 @@
 .right-top {
-  border-color: yellow;
-  border-style: solid;
+  border: yellow, solid, 1px;
   height: 54vh;
 }
 
 .right-bottom {
-  border-color: pink;
-  border-style: solid;
+  border: pink, solid, 1px;
   height: 36vh;
 }
